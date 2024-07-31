@@ -16,7 +16,7 @@ span {
 }
 
 .bg-header {
-  background: url('hero-bg.png') no-repeat center center/cover;
+  background: url('img/hero-bg.png') no-repeat center center/cover;
 }
 
 .header {
@@ -122,7 +122,7 @@ span {
 
 .order {
   padding: 4.2rem 0;
-  background: url('bg.png') no-repeat center center/cover, #272733;
+  background: url('img/bg.png') no-repeat center center/cover, #272733;
 }
 
 .order__title {
