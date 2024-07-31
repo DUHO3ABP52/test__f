@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лорем Ипсум</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="bg-header">
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__logo">LOREMIPSUM.<span>NET</span></div>
+        <div class="header__burger" id="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="header__nav" id="nav-menu">
+          <a href="#work" class="header__link active">Бизнес</a>
+          <a href="#about" class="header__link">О нас</a>
+          <a href="#services" class="header__link">Услуги</a>
+          <a href="#order" class="header__link">Оформить заказ</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title"><span>LOREM IPSUM</span>DOLOR SIT<br> AMETCONSECTETUR <span>ADIPISCING</span></h1>
+          <p class="hero__text">At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+          <ul class="hero__list">
+            <li>- Totam rem aperiam eaque ipsa</li>
+            <li>- Sit voluptatem accusantium doloremque laudantium</li>
+            <li>- Sed ut perspiciatis, unde omnis iste natus error</li>
+          </ul>
+          <div class="hero__buttons">
+            <button class="button">Заказать</button>
+            <button class="button hero__button">Подробнee</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="order" id="order">
+    <div class="container">
+      <h2 class="order__title">ОФОРМЛЕНИЕ <span>ЗАКАЗА</span></h2>
+      <p class="order__text">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+      <div class="order__steps">
+        <div class="order__step">
+          <div class="order__step-img">
+            <img src="img/icon1.png" alt="Step 1" class="order__icon">
+          </div>
+          <p class="order__step-text">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="order__step">
+          <div class="order__step-img">
+            <img src="img/icon2.png" alt="Step 2" class="order__icon">
+          </div>
+          <p class="order__step-text">Consectetur adipiscing elit</p>
+        </div>
+        <div class="order__step">
+          <div class="order__step-img">
+            <img src="img/icon3.png" alt="Step 3" class="order__icon">
+          </div>
+          <p class="order__step-text">Sed do eiusmod tempor</p>
+        </div>
+        <div class="order__step">
+          <div class="order__step-img">
+            <img src="img/icon4.png" alt="Step 4" class="order__icon">
+          </div>
+          <p class="order__step-text">Esse cillum dolore eu fugiat</p>
+        </div>
+        <div class="order__step">
+          <div class="order__step-img">
+            <img src="img/icon5.png" alt="Step 5" class="order__icon">
+          </div>
+          <p class="order__step-text">Excepteur sint occaecat</p>
+        </div>
+      </div>
+      <form class="order__form">
+        <div class="order__form-first">
+          <div class="order__field">
+            <select id="system-type" name="system-type" class="order__input">
+              <option value="" disabled selected>Выберите тип системы</option>
+              <option value="type1">Тип 1</option>
+              <option value="type2">Тип 2</option>
+            </select>
+          </div>
+          <div class="order__field">
+            <input type="email" id="email" name="email" class="order__input" placeholder="Ваш e-mail" required>
+          </div>
+          <div class="order__field">
+            <input type="text" id="name" name="name" class="order__input" placeholder="Ваше имя" required>
+          </div>
+        </div>
+        <div class="order__form-first">
+          <div class="order__progress">
+            <div class="order__progress-label">
+              <span>Прогресс</span>
+              <span id="progress-percent">75%</span>
+            </div>
+            <div class="order__progress-bar">
+              <input type="range" id="progress" name="progress" class="order__input" value="75" min="0" max="100">
+            </div>
+          </div>
+          <div class="order__field">
+            <input type="file" id="file" name="file" class="order__input">
+            <label for="file">Прикрепить файл</label>
+          </div>
+        </div>
+        <button type="submit" class="button order__submit">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer-left">
+        <p>&copy; 2018 &laquo;LOREMIPSUM.NET&raquo;. Все права защищены.</p>
+      </div>
+      <div class="footer-center">
+        <div class="icon-text">
+          <img src="img/s1.png" alt="Search Icon">
+          <p>QIWI wallet</p>
+        </div>
+        <div class="icon-text">
+          <img src="img/s2.png" alt="Percent Icon">
+          <p>Yandex Money</p>
+        </div>
+        <div class="icon-text">
+          <img src="img/s3.png" alt="Document Icon">
+          <p>Web Money</p>
+        </div>
+      </div>
+      <div class="footer__link">
+        <a href="mailto:info@ipsum228.com" class="icon-text">
+          <img src="img/s4.png" alt="Email Icon">
+          <p>info@ipsum228.com</p>
+        </a>
+        <a href="https://vk.com" class="icon-text">
+          <img src="img/s5.png" alt="VK Icon">
+          <p>Vk</p>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
+
